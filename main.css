@@ -1,0 +1,281 @@
+@font-face{
+	font-family:playfair-bold;
+	src: url(font/PlayfairDisplay-Bold.otf);
+}
+@font-face{
+	font-family:playfair-regular;
+	src: url(font/PlayfairDisplay-Regular.otf);
+}
+@font-face{
+	font-family:playfair-italic;
+	src: url(font/PlayfairDisplay-italic.otf);
+}
+
+body{
+	padding:0;
+	margin:0;
+	font-size:18px;
+	overflow-x:hidden;
+
+}
+
+.portfolio:hover {
+filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-moz-filter: grayscale(100%);
+filter: grayscale(100%);
+filter: gray;
+-webkit-filter: grayscale(1);
+transition:1s;
+}
+.navbar{
+background:none;
+	border:none;
+	position:absolute;
+}
+.navbar-header{
+	margin-top:12%;
+list-style:none;
+float:left;
+}
+
+.navbar-header img.logo{
+
+	width:40%;
+	margin-top:-2.4%;
+	padding:0;
+}
+.navbar-header p{
+	margin:0;
+	padding:0;
+	display:inline;
+	color:#8C6E4A;
+
+}
+span.white-text{
+
+
+	color:white;
+	font-size:0.8em;
+}
+#navbar{
+	margin-top:9%;
+	margin-left:7%;
+	color:white;
+	width:100%;
+
+}
+
+#content1{
+	
+	height:700px;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:auto;
+	color:white;
+	background-image:linear-gradient(rgba(29,29,29,.5),
+		rgba(29,29,29,.5)), url(img/background.jpg);
+
+
+
+	
+}
+#content1 h1{
+font-family:playfair-bold;
+font-size:4em;
+color:white;
+margin-top:24%;
+width:60%;
+
+}
+#content1 ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#content1 ul li{
+	margin-top:9%;
+	font-size:0.7em;
+	letter-spacing:1.3px;
+}
+.hover-effect2{
+	width:170px;
+	 transition-timing-function:linear;
+ transition:width 1s;
+}
+.hover-effect{
+	 transition-timing-function:linear;
+ transition:width 1s;
+}
+.hover-effect:hover{
+	border-bottom: 1px solid #8C6E4A ;
+
+}
+.hover-effect2:hover{
+	border-bottom: 1px solid #8C6E4A ;
+
+
+}
+
+#content2 {
+
+	background-color:#1d1d1d;
+	height:100%;
+
+}
+#content2 h5 {
+	margin-top:50%;
+	color:#777;
+}
+#content2 h2{
+	color:white;
+	font-family:playfair-regular;
+	width:75%;
+	font-size:1.5em;
+	line-height:40px;
+	border-bottom:1px solid #8C6E4A;
+	padding-bottom:10%;
+}
+#content2 p{
+	color:#777;
+	width:90%;
+	margin-top:10%;
+	line-height:25px;
+	font-size:0.8em;
+	margin-left:4%;
+
+}
+#content2 span.large-text{
+	color:white;
+	font-size:3em;
+	font-family:san-serif;
+	float:left;
+	margin-top:10px;
+	padding:1.5% 1.5%;
+
+}
+
+#content2 .img1{
+	margin-top:10%;
+
+}
+
+#content2 .img2{
+	margin-top:30%;
+	z-index:1;
+	margin-left:4%;
+	width:80%;
+}
+#content2 .img3{
+	margin-top:-20%;
+	z-index:3;
+	margin-left:-10%;
+	width:60%;
+}
+#content2 h2.first{
+	margin-top:20%;
+}
+#content2 h5.collection{
+	margin-top:20%;
+}
+#content2 ul{
+	margin-top:7%;
+	color:white;
+}
+#content2 ul li{
+	display:inline;
+	font-family:playfair-italic;
+	font-size:1.8em;
+	margin:0 2.5%;
+}
+#content2 h5.product{
+	margin-top:15%;
+	margin-bottom:10%;
+}
+
+#content2 .no-padding{
+	padding:0;
+}
+#content3{
+
+	background-color:#1d1d1d;
+	height:100%;
+}
+#content3 h2{
+	
+	color:white;
+	text-align:center;
+	font-family:playfair-regular;
+	
+	font-size:2em;
+}
+#content3 p.sale{
+	margin-top:10%;
+	text-align:center;
+	font-family:playfair-regular;
+	font-size:0.8em;
+
+}
+section.wrapper{
+	display:block;
+	margin-top:15%;
+	border:1px solid #8C6E4A;
+	padding:0;
+	border-bottom:1px solid #8C6E4A ;
+
+	
+}
+#content3 .header-text{
+	font-family:playfair-italic;
+	color:white;
+}
+#content3 h1{
+	color:white;
+	margin-top:30%;
+	text-align:left;
+	margin-left:16%;
+	margin-bottom:3%;
+}
+#content3 img{
+	width:70%;
+	margin:0 auto;
+	margin-top:2%;
+}
+#content3 p.date{
+	color:white;
+	margin:5%;
+	text-align:center;
+}#content3 h4{
+	color:white;
+	text-align:center;
+	letter-spacing:1.5px;
+	margin-bottom:5%;
+}
+#content3 .border-bottom{
+	width:10%;
+	border-bottom:1px solid #8C6E4A ;
+	margin:0 auto;
+	transition-timing-function:linear;
+	transition:width 1s;
+		
+
+}
+#content3 .border-bottom:hover{
+	width:60%;
+	margin:0 auto;
+	
+}
+
+#content3 h6.grey{
+	margin-top:6% !important;
+	color:#777;
+	width:60%;
+	margin:0 auto;
+	line-height:1.2em;
+	margin-bottom:10%;
+	font-size:0.8em;
+	text-align:center;
+}
+#content3 img.column2-img{
+	margin-top:25%;
+}
